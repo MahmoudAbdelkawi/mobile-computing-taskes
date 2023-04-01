@@ -10,8 +10,8 @@ void main() {
           ),
           body: Column( 
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const <Widget> [
-              Image(image: AssetImage('images/birthday.png')),
+            children: const [
+              Image(image: AssetImage('images/birthday-card.png')),
               Text('Happy Birthday !!', style: TextStyle(fontSize: 30)),
             ],
           )),
