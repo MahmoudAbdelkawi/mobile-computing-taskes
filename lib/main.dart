@@ -48,7 +48,7 @@ class _BasketBallState extends State<BasketBall> {
                                 style: ElevatedButton.styleFrom(
                                   minimumSize: const Size(120, 40),
                                 ),
-                                onPressed: () => () {
+                                onPressed: () {
                                     
                                       setState(() {
                                         teamAPoints += 1;
@@ -61,7 +61,7 @@ class _BasketBallState extends State<BasketBall> {
                                 style: ElevatedButton.styleFrom(
                                   minimumSize: const Size(120, 40),
                                 ),
-                                onPressed: () => () {
+                                onPressed: () {
                                       setState(() {
                                         teamAPoints += 2;
                                       });
@@ -72,7 +72,7 @@ class _BasketBallState extends State<BasketBall> {
                                 style: ElevatedButton.styleFrom(
                                   minimumSize: const Size(120, 40),
                                 ),
-                                onPressed: () => () {
+                                onPressed: () {
                                       setState(() {
                                         teamAPoints += 3;
                                       });
@@ -100,8 +100,7 @@ class _BasketBallState extends State<BasketBall> {
                                 style: ElevatedButton.styleFrom(
                                   minimumSize: const Size(120, 40),
                                 ),
-                                onPressed: () => () {
-                                    
+                                onPressed: () {
                                       setState(() {
                                         teamBPoints += 1;
                                       });
@@ -113,7 +112,7 @@ class _BasketBallState extends State<BasketBall> {
                                 style: ElevatedButton.styleFrom(
                                   minimumSize: const Size(120, 40),
                                 ),
-                                onPressed: () => () {
+                                onPressed: () {
                                     
                                       setState(() {
                                         teamBPoints += 2;
@@ -126,7 +125,7 @@ class _BasketBallState extends State<BasketBall> {
                                 style: ElevatedButton.styleFrom(
                                   minimumSize: const Size(120, 40),
                                 ),
-                                onPressed: () => () {
+                                onPressed: () {
                                     
                                       setState(() {
                                         teamBPoints += 3;
