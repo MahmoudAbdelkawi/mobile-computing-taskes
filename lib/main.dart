@@ -65,7 +65,7 @@ class _BasketBallState extends State<BasketBall> {
                                       setState(() {
                                         teamAPoints += 2;
                                       });
-                                  }
+                                  },
                                 child: const Text('+2 Points',
                                     style: TextStyle(fontSize: 20))),
                             ElevatedButton(
@@ -76,7 +76,7 @@ class _BasketBallState extends State<BasketBall> {
                                       setState(() {
                                         teamAPoints += 3;
                                       });
-                                  }
+                                  },
                                 child: const Text('+3 Points',
                                     style: TextStyle(fontSize: 20))),
                           ],
@@ -132,7 +132,7 @@ class _BasketBallState extends State<BasketBall> {
                                         teamBPoints += 3;
                                       });
                 
-                                  }
+                                  },
                                 child: const Text('+3 Points',
                                     style: TextStyle(fontSize: 20))),
                           ],
