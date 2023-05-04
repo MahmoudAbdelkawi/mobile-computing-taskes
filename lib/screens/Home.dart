@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget{
               color: Colors.orange,
               height: 65.0,
               width: double.infinity,
-              child: const Text('Numbers',
+              child: const Text('Members',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 18,
